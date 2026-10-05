@@ -1,0 +1,5 @@
+student_id,student_name,age,major,city,error_reason,source,gpa,attendance,status,course,credit_hours,semester,score
+1008,Mona Ali,15.0,Information Systems,Sanaa,Invalid Age,CSV,,,,,,,
+1010,,24.0,Computer Science,Aden,Missing student_name,CSV,,,,,,,
+1007,,,,,Invalid GPA,API,4.2,96.0,Active,,,,
+1007,,,,,Invalid Score,DATABASE,,,,Data Engineering,3.0,2026-1,120.0

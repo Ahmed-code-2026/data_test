@@ -1,0 +1,8 @@
+Project generated and verified.
+
+Final records: 8
+Rejected records: 4
+Final columns: student_id, student_name, age, major, city, gpa, attendance, status, course, semester, average_score, total_courses, source, performance_level, attendance_status
+
+Tests:
+

@@ -1,0 +1,37 @@
+2026-09-29 09:32:14,823 INFO pipeline - -----------------------------------
+2026-09-29 09:32:14,823 INFO pipeline - PIPELINE EXECUTION STARTED
+2026-09-29 09:32:14,824 INFO pipeline - -----------------------------------
+2026-09-29 09:32:14,824 INFO csv_source - CSV extraction started
+2026-09-29 09:32:14,837 INFO csv_source - CSV records: 12
+2026-09-29 09:32:14,837 INFO api_source - API extraction started
+2026-09-29 09:32:14,844 INFO api_source - API records: 11
+2026-09-29 09:32:14,844 INFO database_source - Database extraction started
+2026-09-29 09:32:14,849 INFO database_source - Database records: 15
+2026-09-29 09:32:14,850 INFO cleaner - Student cleaning started
+2026-09-29 09:32:14,858 INFO cleaner - Student duplicate records removed: 1
+2026-09-29 09:32:14,871 INFO quality - Student validation: valid=9 rejected=2
+2026-09-29 09:32:14,880 INFO integration - Data integration started
+2026-09-29 09:32:14,901 INFO integration - Integrated records: 8
+2026-09-29 09:32:14,901 INFO transformer - Transformation started
+2026-09-29 09:32:14,912 INFO quality - Final validation: valid=8 rejected=0
+2026-09-29 09:32:14,916 INFO csv_writer - Saved 8 records to /mnt/data/student_data_pipeline/data/processed/final_dataset.csv
+2026-09-29 09:32:14,918 INFO csv_writer - Saved 4 rejected records to /mnt/data/student_data_pipeline/data/rejected/rejected_records.csv
+2026-09-29 09:32:14,918 INFO pipeline - -----------------------------------
+2026-09-29 09:32:14,918 INFO pipeline - PIPELINE EXECUTION SUMMARY
+2026-09-29 09:32:14,918 INFO pipeline - CSV Records: 12
+2026-09-29 09:32:14,918 INFO pipeline - API Records: 11
+2026-09-29 09:32:14,918 INFO pipeline - Database Records: 15
+2026-09-29 09:32:14,918 INFO pipeline - Integrated Records: 8
+2026-09-29 09:32:14,918 INFO pipeline - Valid Records: 8
+2026-09-29 09:32:14,918 INFO pipeline - Rejected Records: 4
+2026-09-29 09:32:14,918 INFO pipeline - Duplicate Records: 1
+2026-09-29 09:32:14,919 INFO pipeline - Missing Values in final data: 0
+2026-09-29 09:32:14,919 INFO pipeline - Processing Time: 0.09 seconds
+2026-09-29 09:32:14,919 INFO pipeline - -----------------------------------
+2026-09-29 09:32:22,842 INFO cleaner - Student cleaning started
+2026-09-29 09:32:22,848 INFO cleaner - Student duplicate records removed: 1
+2026-09-29 09:32:22,850 INFO integration - Data integration started
+2026-09-29 09:32:22,864 INFO integration - Integrated records: 1
+2026-09-29 09:32:22,866 INFO cleaner - Student cleaning started
+2026-09-29 09:32:22,869 INFO cleaner - Student duplicate records removed: 1
+2026-09-29 09:32:22,874 INFO quality - Student validation: valid=9 rejected=2
